@@ -44,6 +44,7 @@ class CarritoController extends Controller
     }
     public function MostrarCarrito()
     {
+        
         @foreach($carrito->productos as $producto)
             <div>
                 <p>Producto: {{ $producto->nombre }}</p>
